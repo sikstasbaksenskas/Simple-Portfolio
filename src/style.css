@@ -1,0 +1,91 @@
+body {
+	background-color: #1F2833;
+	color: white;
+}
+
+.samewidth {
+	text-align: justify;
+	line-height: 1.6;
+	color: #ddd;
+}
+
+/* custom hr in Contacts section */
+.customhr {
+	width: 50px;
+	border-top: 3px solid #66FCF1;
+}
+
+/* footer icon color */
+.menupadd {
+	letter-spacing: 3px;
+	color: #ddd;
+}
+
+/* footer icon color */
+.footersett {
+	padding: 5px;
+}
+
+/* color only */
+.textcolor {
+	color: #66FCF1;
+}
+
+/* footer icon color */
+.iconsett {
+	color: #66FCF1;
+	font-size: 40px;
+	padding: 5px;
+}
+
+/* main container vertical align */
+.container {
+	max-width: 700px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* info block */
+.tab-content {
+	background-color: #1F2833;
+	color: #fff;
+	padding: 5px 45px 5px 45px;
+}
+
+/* Nav tab */
+.nav-tabs>li>a {
+	color: #66FCF1;
+	margin: 5px;
+	background-color: #1F2833;
+}
+
+/* Nav tab hover */
+.nav-tabs>li>a:hover {
+	color: #66FCF1;
+	background-color: #1F2833;
+	border: none;
+	border-bottom: 2px solid #66FCF1;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+	color: #66FCF1;
+	background-color: #1F2833;
+	border: 1px solid #66FCF1;
+}
+
+.nav-tabs.nav-justified>li>a,
+.nav-tabs.nav-justified>li>a:focus,
+.nav-tabs.nav-justified>li>a:hover {
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs.nav-justified>.active>a,
+.nav-tabs.nav-justified>.active>a:focus,
+.nav-tabs.nav-justified>.active>a:hover {
+	border: none;
+	border-bottom: 1px solid #66FCF1;
+}
